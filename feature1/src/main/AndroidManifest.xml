@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.photosfeature">
+
+    <application>
+        <activity android:name=".ItemActivity"
+            android:label="@string/photo_title">
+            <intent-filter>
+                <action android:name="com.example.photosfeature.open" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
