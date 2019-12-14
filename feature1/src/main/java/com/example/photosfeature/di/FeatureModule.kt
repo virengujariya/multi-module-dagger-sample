@@ -15,7 +15,7 @@ abstract class FeatureModule {
     @IntoMap
     @ClassKey(ItemActivity::class)
     abstract fun bindPhotoActivityInjectorFactory(
-        builder: FeatureComponent.Factory
+        factory: FeatureComponent.Factory
     ): AndroidInjector.Factory<*>
 
     @Module

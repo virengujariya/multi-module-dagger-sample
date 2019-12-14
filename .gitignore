@@ -1,0 +1,16 @@
+/build/
+*.iml
+.idea/
+.idea/workspace.xml
+.gradle/
+.gradle
+*.lock
+*.bin
+/.gradle/buildOutputCleanup/outputFiles.bin
+/.gradle/5.4.1/fileHashes/resourceHashesCache.bin
+/.gradle/5.4.1/fileHashes/fileHashes.lock
+/.gradle/5.4.1/fileHashes/fileHashes.bin
+/.gradle/5.4.1/executionHistory/executionHistory.lock
+/.gradle/5.4.1/executionHistory/executionHistory.bin
+.DS_Store
+/*.iml
